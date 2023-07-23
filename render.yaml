@@ -1,0 +1,9 @@
+services:
+  - name: your-websocket-server
+    type: web
+    env:
+      - key: PORT
+        value: '8900'
+    routes:
+      - path: /
+        handle: code
